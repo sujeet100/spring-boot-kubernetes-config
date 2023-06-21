@@ -1,0 +1,8 @@
+message:
+  welcome: Welcome to built in property file
+  goodbye: Goodbye from built in property file
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,beans,env
