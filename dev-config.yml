@@ -1,3 +1,10 @@
-message:
-  welcome: Welcome to dev config map
-  goodbye: Goodbye from dev config map
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dev-config
+data:
+  application.yml: |-
+    message:
+      welcome: Welcome to dev config map
+      goodbye: Goodbye from dev config map
+    simple: Hi from CM!

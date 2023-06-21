@@ -18,7 +18,7 @@ Make sure that the docker desktop is running and the kubernetes is enabled
 
 - Create a config map from the yml file
     ```json
-     kubectl create configmap dev-config --from-file dev-config.yaml
+     kubectl apply -f dev-config.yml
     ```
 
 

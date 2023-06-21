@@ -1,3 +1,4 @@
+simple: This is a simple message
 message:
   welcome: Welcome to built in property file
   goodbye: Goodbye from built in property file
@@ -6,3 +7,12 @@ management:
     web:
       exposure:
         include: health,info,beans,env
+  endpoint:
+    env:
+      show-values: ALWAYS
+
+logging:
+  level:
+    org:
+      springframework:
+        cloud: DEBUG
